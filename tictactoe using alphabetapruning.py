@@ -1,6 +1,7 @@
 from random import choice
 from math import inf
 
+## Estado
 board = [[0, 0, 0],
          [0, 0, 0],
          [0, 0, 0]]
@@ -176,6 +177,7 @@ def pvc():
             print('Enter a number')
 
     Clearboard(board)
+    Gameboard(board)
     if order == 2:
         currentPlayer = -1
     else:
